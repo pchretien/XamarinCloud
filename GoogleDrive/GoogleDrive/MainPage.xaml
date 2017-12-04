@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:GoogleDrive"
+             x:Class="GoogleDrive.MainPage"
+             Title="Google Drive">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Google Connect" Clicked="Button_Clicked" BackgroundColor="Blue"/>
+            <Button Text="Google List" Clicked="Button_Clicked_1"  BackgroundColor="Red"/>
+            <Button Text="Google PNG" Clicked="Button_Clicked_2"  BackgroundColor="LightGreen"/>
+            <Button Text="Google JPG" Clicked="Button_Clicked_3"  BackgroundColor="Green"/>
+            <Button Text="Google PDF" Clicked="Button_Clicked_4"  BackgroundColor="DarkGreen"/>
+
+            <Button Text="Box Connect" Clicked="Button_Clicked_5" BackgroundColor="Blue"/>
+            <Button Text="Box List" Clicked="Button_Clicked_6"  BackgroundColor="Red"/>
+            <Button Text="Box PNG" Clicked="Button_Clicked_7"  BackgroundColor="LightGreen"/>
+            <Button Text="Box JPG" Clicked="Button_Clicked_8"  BackgroundColor="Green"/>
+            <Button Text="Box PDF" Clicked="Button_Clicked_9"  BackgroundColor="DarkGreen"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
